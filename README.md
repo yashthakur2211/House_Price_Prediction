@@ -4,7 +4,7 @@ The Goal of this Project is to Predict the House prices based on variuos factors
 
 # Steps to Run this Project
 
-Step 1 - Install ZenML - https://docs.zenml.io/getting-started/installation\n
+Step 1 - Install ZenML - https://docs.zenml.io/getting-started/installation/n
 Step 2 - Create Virtual Enviroment in VS code for this project\n
 Step 3 - pip install -r requirements.txt
 
