@@ -4,20 +4,20 @@ The Goal of this Project is to Predict the House prices based on variuos factors
 
 # Steps to Run this Project
 
-Step 1 - Install ZenML - https://docs.zenml.io/getting-started/installation
-Step 2 - Create Virtual Enviroment in VS code for this project
+Step 1 - Install ZenML - https://docs.zenml.io/getting-started/installation\n
+Step 2 - Create Virtual Enviroment in VS code for this project\n
 Step 3 - pip install -r requirements.txt
 
 # Run Pipeline 
 
-Install this - 
+Install this - /n
 
-zenml integration install mlflow -y
-zenml experiment-tracker register mlflow_tracker --flavor=mlflow
-zenml model-deployer register mlflow --flavor=mlflow
-zenml stack register local-mlflow-stack -a default -o default -d mlflow -e mlflow_tracker --set
+zenml integration install mlflow -y/n
+zenml experiment-tracker register mlflow_tracker --flavor=mlflow\n
+zenml model-deployer register mlflow --flavor=mlflow\n
+zenml stack register local-mlflow-stack -a default -o default -d mlflow -e mlflow_tracker --set\n
 
-Run - python run_pipeline.py
+Run - python run_pipeline.py\n
 
 # Register the model on MLFlow
 
